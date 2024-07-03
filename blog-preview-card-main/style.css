@@ -4,7 +4,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 500 800;
   font-style: normal;
-  padding: 50px;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 main{
@@ -18,7 +19,8 @@ main{
     border-width: 2px;
     border-style: solid;
     padding: 20px;
-    
+    justify-content: center;
+    align-items: center;
     grid-template-areas:
     "pic"
     "learning"
@@ -99,7 +101,3 @@ img {
 
 }
 
-main{
-    justify-content: center;
-    align-items: center
-}
